@@ -10,7 +10,10 @@ const Shows = () => {
   }, []);
   return (
     <section className=" container mx-auto my-20">
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-7 px-5">
+      <h1 className=" text-5xl font-bold text-[#e4d804] my-12">
+        Popular shows
+      </h1>
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-7 px-5 justify-items-center md:grid-cols-2">
         {shows.map((show) => (
           <SingleShow key={show.show.id} show={show}></SingleShow>
         ))}

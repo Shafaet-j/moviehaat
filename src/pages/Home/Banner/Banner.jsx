@@ -4,7 +4,7 @@ import banner from "../../../assets/banner.jpg";
 const Banner = () => {
   return (
     <div
-      className="hero h-[90vh] bg-gradient-to-r to-blue-500 -mt-[6.25rem]"
+      className="hero h-[90vh] bg-gradient-to-r to-blue-500 lg:-mt-[6.25rem] md:-mt-24"
       style={{
         backgroundImage: `linear-gradient(to right, rgba(15,7,113, 0.1), rgba(5, 5, 5, 0.1)),url(${banner})`,
       }}
