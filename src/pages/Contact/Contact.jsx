@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const Contact = () => {
   return (
     <div className=" flex items-center justify-center h-screen text-white text-3xl -mt-[6.25rem]">
       Coming soon
@@ -8,4 +8,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

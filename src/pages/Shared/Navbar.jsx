@@ -17,14 +17,14 @@ const Navbar = () => {
     },
   ];
   return (
-    <header>
+    <header className="bg-transparent backdrop-blur-2xl z-50 sticky top-0">
       <nav className=" container mx-auto nav flex h-[100px] items-center justify-between px-4 relative">
-        <Link className="text-xl lg:text-3xl font-bold text-slate-950" href="/">
-          QuadB
+        <Link className="text-xl lg:text-3xl font-bold text-[#e4d804]" href="/">
+          QuadShow
         </Link>
         <ul className=" flex gap-10">
           {navlink.map(({ path, title }) => (
-            <li key={path}>
+            <li className=" text-white font-bold" key={path}>
               <NavLink to={path}>{title}</NavLink>
             </li>
           ))}
